@@ -1,3 +1,7 @@
+.intro > .container{
+    width: 80%;
+}
+/*nav bar*/
 .navbar{
     background-color: #000000;
     border-bottom: rgba(255,255,255, 0.90) solid 3px;
@@ -17,4 +21,44 @@
 .dropdown-menu .dropdown-item:hover{
     color: rgba(0, 0, 0, 1);
 }
+/*footer*/
+.footer{
+    margin: 0;
+    background-color: #000000;
+    min-height: 20px;
+    padding:15px;
+    border-top: rgba(255, 255, 255, .95) solid 3px;
+    text-align: center;
+    font-weight: lighter;
+    color: #F0F0F0;
+}
+/*awesome fonts*/
+/* Style all font awesome icons */
+.fa {
+    margin: 0em .4em;
+    padding: .3em;
+    font-size: 1.5em;
+    width: 1.7em;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    border: #fff 1px solid;
+    color: white;
+}
+.fa .fa-facebook:hover {
+    background-color: #fff;
+    color: royalblue;
+}
+
+.fa-youtube {
+    border: #fff 1px solid;
+    color: white;
+}
+.fa .fa-youtube:hover {
+    background-color: #fff;
+    color: red;
+}
+
 
