@@ -3,3 +3,12 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/bracumon/repositories/mongol_tori_website_full/
     - /bin/cp -R * $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp achivements.html $DEPLOYPATH
+    - /bin/cp contact.html $DEPLOYPATH
+    - /bin/cp gallery.html $DEPLOYPATH
+    - /bin/cp join.html $DEPLOYPATH
+    - /bin/cp outreach.html $DEPLOYPATH
+    - /bin/cp sponsor.html $DEPLOYPATH
+    - /bin/cp team.html $DEPLOYPATH
