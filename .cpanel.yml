@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/bracumon/repositories/montol_tori_website_full/
+    - export DEPLOYPATH=/home/bracumon/repositories/mongol_tori_website_full/
     - /bin/cp -R * $DEPLOYPATH
